@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>Product Details</title>
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=search">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet">
+</head>
+<body>
+    <!-- Banner Section -->
+    <div class="banner_bg_main">
+        <!-- Header Section -->
+        <div class="header_section">
+            <div class="container">
+                <div class="containt_main">
+                    <div id="mySidenav" class="sidenav">
+                        <a href="index.html">Home</a>
+                        <a href="Shop All.html">Shop All</a>
+                        <a href="Winter Collection.html">Women's clothing</a>
+                        <a href="Summer Collection.html">Men's Collection</a>
+                    </div>
+
+                    <div class="main">
+                        <div id="search-bar" class="search-bar hidden">
+                            <input type="text" class="search1" placeholder="Search">
+                            <button id="close-search" class="close-search">X</button>
+                        </div>
+                
+                        <div class="icons">
+                            <button id="search-btn" class="icon-button search-button">
+                                <span class="material-symbols-outlined">search</span>
+                            </button>
+                            <a href="structure.html"><span class="material-icons-outlined">person_outline</span></a>
+                            <a href="Your cart.html"><span class="material-icons-outlined">shopping_bag</span></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End Header Section -->
+
+        <!-- Product Details Section -->
+        <div class="product-container">
+            <!-- Product Image Section -->
+            <!-- Product Image Section -->
+<div class="product-image">
+    <img src="" alt="Product Image" id="productImage">
+</div>
+
+<!-- Product Details Section -->
+<div class="product-details">
+    <div class="product-title" id="productTitle"></div>
+    <div class="product-price" id="productPrice"></div>
+    <div class="product-shipping">Shipping calculated at checkout.</div>
+
+    <!-- Quantity Selector -->
+    <div class="quantity-container">
+        <label for="quantity">Quantity</label>
+        <div class="quantity-selector">
+            <button class="quantity-button" id="decrement">−</button>
+            <input type="text" id="quantity" class="quantity-input" value="1" readonly>
+            <button class="quantity-button" id="increment">+</button>
+        </div>
+    </div>
+
+    <!-- Buttons -->
+    <div class="button-container">
+        <div class="add-to-cart">
+            <a href="#" id="addToCartLink">Add to cart</a>
+        </div>
+        <div class="buy-now">
+            <a href="contact.html">Buy it now</a>
+        </div>
+    </div>
+    
+    <!-- Modal Window -->
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <span class="close-btn">&times;</span>
+            <h2>Item Added to Cart</h2>
+            <div class="modal-buttons">
+                <a href="Your cart.html" id="viewCart" class="button">View my Cart</a>
+                <a href="contact.html" id="continueShopping" class="button1">Checkout</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Product Information -->
+    <div class="product-info" id="productInfo">One size fits up to 85kg</div>
+</div>
+
+        
+                <!-- Product Care Instructions -->
+                <div class="product-care">
+                    <strong>Product Care:<br></br></strong>
+                    <ul id="productCare">
+                        <li>It's preferable to dry clean all our products.</li>
+                        <li>Avoid Washing Machine.</li>
+                        <li>Do not use bleach.</li>
+                        <li>Wash inside out.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        
+
+        <!-- Refund/Exchange Policy -->
+        <div class="policy-container">
+            <div class="policy-title">Refund/Exchange Policy</div>
+            <div class="policy-text">
+                Once you receive the item by the courier, try the product and our shipping company waits you 5-10 minutes.
+            </div>
+            <div class="policy-text">
+                In case you no longer wish to have the product or you want to exchange it, you can return it to the courier and only pay the shipping fees.
+            </div>
+            <div class="policy-highlight">
+                THIS IS THE ONLY WAY TO ACCEPT THE REFUND<br>
+                (NO REFUNDS OR EXCHANGES ON SALE ITEMS)
+            </div>
+        </div>
+
+        <!-- You May Also Like -->
+        <div class="fashion_section">
+            <div class="container">
+                <div class="fashion_taital">
+                    <h1>You may also like</h1>
+                </div>
+                <div class="fashion_section_2">
+                    <div class="row" >
+                        <div class="col">
+                            <div class="box_main">
+                                <a href="view-product.html">
+                                    <div class="tshirt_img"><img src="images/pic1.webp" alt="Winter Collection"></div>
+                                </a>
+                            </div>
+                            <div class="detail-image"> 
+                                <a href="view-product.html">White Shirt</a>
+                                <h4>1,200 EGP</h4>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="box_main">
+                                <a href="view-product.html">
+                                    <div class="tshirt_img"><img src="images/pic11.webp" alt="Winter Collection"></div>
+                                </a>
+                            </div>
+                            <div class="detail-image"> 
+                                <a href="view-product.html">White Shirt</a>
+                                <h4>1,200 EGP</h4>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="box_main">
+                                <a href="view-product.html">
+                                    <div class="tshirt_img"><img src="images/pic111.webp" alt="Winter Collection"></div>
+                                </a>
+                            </div>
+                            <div class="detail-image"> 
+                                <a href="view-product.html">White Shirt</a>
+                                <h4>1,200 EGP</h4>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="box_main">
+                                <a href="view-product.html">
+                                    <div class="tshirt_img"><img src="images/pic1111.webp" alt="Winter Collection"></div>
+                                </a>
+                            </div>
+                            <div class="detail-image"> 
+                                <a href="view-product.html">White Shirt</a>
+                                <h4>1,200 EGP</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <footer>
+            <div class="footer-container">
+                <div class="left-col">
+                    <h1>Our Social Media</h1>
+                    <div class="social-media">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+
+                <div class="right-col">
+                    <h1>Our Sales</h1>
+                    <div class="border"></div>
+                    <p><br> Enter Your Email to get our latest offers <br></p>
+                    <form action="" class="newsletter-form">
+                        <input type="text" class="txtb" placeholder="Enter Your Email">
+                        <input type="submit" class="btn" value="Submit">
+                    </form>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <script src="product.js"></script>
+</body>
+</html>
